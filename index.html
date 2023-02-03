@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <link rel="stylesheet" href="/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div id="calculator">
+            <div id="top">
+                <div id="calc"></div>
+                <div id="result"><i class="ph-equals"></i><div class="answer"></div></div>
+            </div>
+            <div id="buttons">
+                <button onclick="cancelEntry()" class="CE">CE</button>
+                <button onclick="clean()" class="C">C</button>
+                <button onclick="insert('/(100)')" class="percent"><i class="ph-percent"></i></button>
+                <button onclick="insert('/')" class="divide"><i class="ph-divide"></i></i></button>
+                <button onclick="insert('7')" class="seven"><i class="ph-number-seven"></i></i></button>
+                <button onclick="insert('8')" class="eight"><i class="ph-number-eight"></i></button>
+                <button onclick="insert('9')" class="nine"><i class="ph-number-nine"></i></button>
+                <button onclick="insert('*')" class="times"><i class="ph-x"></i></button>
+                <button onclick="insert('4')" class="four"><i class="ph-number-four"></i></button>
+                <button onclick="insert('5')" class="five"><i class="ph-number-five"></i></button>
+                <button onclick="insert('6')" class="six"><i class="ph-number-six"></i></button>
+                <button onclick="insert('-')" class="minus"><i class="ph-minus"></i></i></button>
+                <button onclick="insert('1')" class="one"><i class="ph-number-one"></i></button>
+                <button onclick="insert('2')" class="two"><i class="ph-number-two"></i></button>
+                <button onclick="insert('3')" class="three"><i class="ph-number-three"></i></button>
+                <button onclick="insert('+')" class="plus"><i class="ph-plus"></i></button>
+                <button onclick="insert()" class="plus-minus"><i class="ph-plus-minus"></i></button>
+                <button onclick="insert('0')" class="zero"><i class="ph-number-zero"></i></button>
+                <button onclick="insert('.')" class="comma">,</button>
+                <button onclick="exeCalc()" class="equals"><i class="ph-equals"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
+
